@@ -8,6 +8,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@heroicons/vue": "^2.0.13",
+    "@vueuse/core": "^9.6.0",
     "pinia": "^2.0.26",
     "vue": "^3.2.45",
     "vue-fullpage.js": "^0.2.9",

@@ -1,5 +1,7 @@
 <template>
-  <div class="">Licence</div>
+  <div class="">
+    Licence
+  </div>
 </template>
 
 <script setup>

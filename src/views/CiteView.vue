@@ -1,5 +1,7 @@
 <template>
-  <div class="">Cite</div>
+  <div class="">
+    Cite
+  </div>
 </template>
 
 <script setup>

@@ -1,5 +1,7 @@
 <template>
-  <div class="">Download</div>
+  <div class="">
+    Download
+  </div>
 </template>
 
 <script setup>

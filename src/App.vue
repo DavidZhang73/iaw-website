@@ -81,12 +81,12 @@
     </div>
   </transition>
   <full-page :options="full_page_options">
-    <head-view class="section pt-[84px] bg-secondary"/>
-    <introduction-view class="section"/>
-    <cite-view class="section pt-[84px] bg-secondary"/>
-    <download-view class="section pt-[84px]"/>
-    <people-view class="section pt-[84px] bg-secondary"/>
-    <license-view class="section pt-[84px]"/>
+    <head-view class="section pt-[84px] px-6 md:px-40  bg-secondary"/>
+    <introduction-view class="section pt-[84px] px-6 md:px-40 "/>
+    <cite-view class="section pt-[84px] px-6 md:px-40  bg-secondary"/>
+    <download-view class="section pt-[84px] px-6 md:px-40 "/>
+    <people-view class="section pt-[84px] px-6 md:px-40  bg-secondary"/>
+    <license-view class="section pt-[84px] px-6 md:px-40 "/>
     <footer class="section fp-auto-height py-6 text-white text-center text-sm bg-tertiary w-screen">
       <div>
         This dataset and website is not sponsored or affiliated in any way with IKEA the Furniture retail company

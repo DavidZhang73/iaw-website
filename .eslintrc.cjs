@@ -8,14 +8,14 @@ module.exports = {
     'eslint:recommended',
   ],
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: 'latest',
   },
   rules: {
-    'vue/html-closing-bracket-spacing': ['off']
+    'vue/html-closing-bracket-spacing': ['off'],
   },
   env: {
     browser: true,
     amd: true,
-    node: true
+    node: true,
   },
 }

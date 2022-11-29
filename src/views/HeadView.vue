@@ -6,7 +6,7 @@
     <div
       v-for="row in grid"
       :key="row"
-      class="flex opacity-50 filter blur-sm"
+      class="flex opacity-80 filter blur-sm"
     >
       <div
         v-for="cell in row"

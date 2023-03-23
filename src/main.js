@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import { createPinia } from 'pinia'
+import '@fontsource/roboto'
 
 import App from './App.vue'
 import './assets/main.css'

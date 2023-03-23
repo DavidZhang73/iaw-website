@@ -8,6 +8,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@fontsource/roboto": "^4.5.8",
     "@heroicons/vue": "^2.0.16",
     "@vueuse/core": "^9.13.0",
     "pinia": "^2.0.33",

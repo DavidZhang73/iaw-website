@@ -11,6 +11,8 @@ specifiers:
   eslint-plugin-vue: ^9.9.0
   pinia: ^2.0.33
   postcss: ^8.4.21
+  prismjs: ^1.29.0
+  prismjs-bibtex: ^2.0.1
   tailwindcss: ^3.2.7
   vite: ^3.2.5
   vue: ^3.2.47
@@ -22,6 +24,8 @@ dependencies:
   '@heroicons/vue': 2.0.16_vue@3.2.47
   '@vueuse/core': 9.13.0_vue@3.2.47
   pinia: 2.0.33_vue@3.2.47
+  prismjs: 1.29.0
+  prismjs-bibtex: 2.0.1
   vue: 3.2.47
   vue-fullpage.js: 0.2.13_vue@3.2.47
   vue-router: 4.1.6_vue@3.2.47
@@ -1368,6 +1372,17 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
     dev: true
+
+  /prismjs-bibtex/2.0.1:
+    resolution: {integrity: sha512-CU1JWHuJ+8T1CrmBQF+hY6CY8nsrMP4JN5NOPwUdrZCSzpa4iyv07bvw05HFrydG3bUddozMETpexwdZgM8+KQ==}
+    dependencies:
+      prismjs: 1.29.0
+    dev: false
+
+  /prismjs/1.29.0:
+    resolution: {integrity: sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==}
+    engines: {node: '>=6'}
+    dev: false
 
   /punycode/2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}

@@ -8,9 +8,29 @@
         />
       </svg>
     </section-divider>
+    <div class="max-w-7xl mx-auto">
+      <pre
+        class="line-numbers language-bibtex rounded-lg font-bold select-all"
+        style="white-space: pre-wrap !important"
+        data-prismjs-copy-timeout="500"
+        data-prismjs-copy="Copy"
+      ><code>@inproceedings{Zhang2023Aligning,
+  author    = {Zhang, Jiahao and Cherian, Anoop Liu, Yanbin and Ben-Shabat, Yizhak and Rodriguez, Cristian and Gould, Stephen},
+  title     = {Aligning Step-by-Step Instructional Diagrams to Video Demonstrations},
+  booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2023},
+}</code></pre>
+    </div>
   </div>
 </template>
 
 <script setup>
 import SectionDivider from "@/components/section-divider.vue"
 </script>
+
+<style>
+.copy-to-clipboard-button {
+  margin: 0.5em, 0.5em, 0, 0;
+  height: 2em;
+}
+</style>

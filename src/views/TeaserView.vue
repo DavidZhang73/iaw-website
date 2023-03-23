@@ -18,7 +18,7 @@
         class="p-10 text-center text-primary text-bold bg-white/30 rounded-xl backdrop-blur-xl backdrop-sepia"
       >
         <div class="font-extrabold text-3xl md:text-6xl">IKEA ASSEMBLY IN THE WILD (IAW) DATASET</div>
-        <div class="py-8 md:py-16 flex justify-center">
+        <div class="py-8 md:py-16 flex flex-wrap justify-center">
           <a href="" target="_blank"
             ><button class="social-btn"><NewspaperIcon class="h-6 mr-1" />Paper</button></a
           >

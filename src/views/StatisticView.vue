@@ -1,12 +1,12 @@
 <template>
   <div>
-    <section-divider name="INTRODUCTION" color="tertiary">
-      <StarIcon />
+    <section-divider name="STATISTICS">
+      <ChartPieIcon />
     </section-divider>
   </div>
 </template>
 
 <script setup>
 import SectionDivider from "@/components/section-divider.vue"
-import { StarIcon } from "@heroicons/vue/24/solid"
+import { ChartPieIcon } from "@heroicons/vue/24/solid"
 </script>

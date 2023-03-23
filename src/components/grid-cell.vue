@@ -5,14 +5,14 @@
       :src="cellValue.image"
       :alt="cellValue.name"
       class="h-full w-full object-cover select-none"
-      style="user-drag: none;"
-    >
+      style="user-drag: none"
+    />
   </Transition>
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue'
-import resources from '../components/grid-cell-resources'
+import { onMounted, ref } from "vue"
+import resources from "../components/grid-cell-resources"
 
 const cellType = ref()
 const cellValue = ref()
@@ -41,7 +41,6 @@ const refreshCell = () => {
       cellValue.value = random_choose(resource.value).value
     }
   }, 500)
-
 }
 
 onMounted(() => {

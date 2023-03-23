@@ -55,7 +55,7 @@
         This dataset and website is not sponsored or affiliated in any way with IKEA the Furniture retail company
       </div>
       <a href="https://alvarotrigo.com/fullPage/">Made with fullPage.js</a>
-      <div>Copyright © ANU, MERL 2023</div>
+      <div>Copyright © <a href="https://academic.davidz.cn">DavidZ</a> 2023</div>
     </footer>
   </full-page>
 </template>

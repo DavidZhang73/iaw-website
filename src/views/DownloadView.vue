@@ -4,7 +4,7 @@
       <ArrowDownOnSquareStackIcon />
     </section-divider>
     <div class="h-80 flex justify-center items-center">
-      <div class="text-tertiary text-4xl font-bold">Coming soon!</div>
+      <button class="btn text-2xl font-bold">Coming soon!</button>
     </div>
   </div>
 </template>

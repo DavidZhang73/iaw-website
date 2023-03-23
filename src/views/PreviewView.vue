@@ -3,6 +3,9 @@
     <section-divider name="PREVIEW" color="tertiary">
       <PresentationChartBarIcon />
     </section-divider>
+    <div class="h-80 flex justify-center items-center">
+      <div class="text-tertiary text-4xl font-bold">Coming soon!</div>
+    </div>
   </div>
 </template>
 

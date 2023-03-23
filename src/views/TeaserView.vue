@@ -20,10 +20,10 @@
         <div class="font-extrabold text-3xl md:text-6xl">IKEA ASSEMBLY IN THE WILD (IAW) DATASET</div>
         <div class="py-8 md:py-16 flex flex-wrap justify-center">
           <a href="" target="_blank"
-            ><button class="social-btn"><NewspaperIcon class="h-6 mr-1" />Paper</button></a
+            ><button class="btn"><NewspaperIcon class="h-6 mr-1" />Paper</button></a
           >
           <a href="https://github.com/DavidZhang73/IKEAAssemblyInTheWildDataset" target="_blank"
-            ><button class="social-btn">
+            ><button class="btn">
               <svg class="h-6 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.5 256 256">
                 <g fill="currentColor">
                   <path
@@ -37,10 +37,10 @@
             </button></a
           >
           <a href="/#download"
-            ><button class="social-btn"><ArrowDownTrayIcon class="h-6 mr-1" />Download</button></a
+            ><button class="btn"><ArrowDownTrayIcon class="h-6 mr-1" />Download</button></a
           >
           <a href="https://academic.davidz.cn/en/publication/zhang-cvpr-2023/" target="_blank"
-            ><button class="social-btn"><GlobeAltIcon class="h-6 mr-1" />Project</button></a
+            ><button class="btn"><GlobeAltIcon class="h-6 mr-1" />Project</button></a
           >
         </div>
         <div class="pb-4 md:pb-10 text-xl md:text-3xl font-bold leading-relaxed">
@@ -152,7 +152,7 @@ onMounted(() => {
 </script>
 
 <style>
-.social-btn {
+.btn {
   @apply flex items-center text-lg font-bold align-middle text-primary border-primary p-2 mx-2 border-2 rounded-2xl hover:text-white hover:bg-primary;
 }
 </style>

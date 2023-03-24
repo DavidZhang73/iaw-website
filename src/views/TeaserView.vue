@@ -42,44 +42,44 @@
           >
         </div>
         <div class="pb-2 md:pb-10 text-lg md:text-3xl font-bold">
-          <a href="https://academic.davidz.cn/" class="inline-block px-2 hover:underline" target="_blank"
+          <a href="https://academic.davidz.cn/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Jiahao Zhang<sup>1</sup></a
           >
-          <a href="https://users.cecs.anu.edu.au/~cherian/" class="inline-block px-2 hover:underline" target="_blank"
+          <a href="https://users.cecs.anu.edu.au/~cherian/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Anoop Cherian<sup>2</sup></a
           >
-          <a href="https://csyanbin.github.io/" class="inline-block px-2 hover:underline" target="_blank"
+          <a href="https://csyanbin.github.io/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Yanbin Liu<sup>1</sup></a
           >
-          <a href="https://www.itzikbs.com/" class="inline-block px-2 hover:underline" target="_blank"
+          <a href="https://www.itzikbs.com/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Yizhak Ben-Shabat<sup>1,3</sup></a
           >
-          <a href="https://crodriguezo.github.io/" class="inline-block px-2 hover:underline" target="_blank"
+          <a href="https://crodriguezo.github.io/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Cristian Rodriguez<sup>4</sup></a
           >
-          <a href="https://users.cecs.anu.edu.au/~sgould/" class="inline-block px-2 hover:underline" target="_blank"
+          <a href="https://users.cecs.anu.edu.au/~sgould/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Stephen Gould<sup>1</sup></a
           >
         </div>
         <div class="flex flex-wrap justify-center md:text-2xl">
           <div>
-            <a href="https://www.anu.edu.au/" class="inline-block px-2 hover:underline" target="_blank"
+            <a href="https://www.anu.edu.au/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>1</sup>The Australian National University</a
             >
           </div>
           <div>
-            <a href="https://www.merl.com/" class="inline-block px-2 hover:underline" target="_blank"
+            <a href="https://www.merl.com/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>2</sup>Mitsubishi Electric Research Laboratories</a
             >
           </div>
           <div class="w-full"></div>
           <div>
-            <a href="https://www.technion.ac.il/en/home-2/" class="inline-block px-2 hover:underline" target="_blank"
+            <a href="https://www.technion.ac.il/en/home-2/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>3</sup>Technion Israel Institute of Technology</a
             >
           </div>
           <div>
-            <a href="https://www.adelaide.edu.au/aiml/" class="inline-block px-2 hover:underline" target="_blank"
+            <a href="https://www.adelaide.edu.au/aiml/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>4</sup>The Australian Institute for Machine Learning</a
             >
           </div>

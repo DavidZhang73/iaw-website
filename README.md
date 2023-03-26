@@ -1,3 +1,3 @@
 # IKEA in The Wild (IAW) Dataset Website
 
-[https://iaw.davidz.cn](Host) | [https://DavidZhang73.github.io/iaw_dataset](GitHub Page)
+[Host](https://iaw.davidz.cn) | [GitHub Page](https://DavidZhang73.github.io/iaw_dataset)

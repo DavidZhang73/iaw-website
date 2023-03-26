@@ -10,7 +10,7 @@
     </section-divider>
     <div class="max-w-7xl mx-auto">
       <pre
-        class="line-numbers language-bibtex rounded-lg font-bold select-all"
+        class="line-numbers language-bibtex rounded-lg text-sm md:text-base font-bold select-all"
         style="white-space: pre-wrap !important"
         data-prismjs-copy-timeout="500"
         data-prismjs-copy="Copy"

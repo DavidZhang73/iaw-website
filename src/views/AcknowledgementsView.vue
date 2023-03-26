@@ -4,7 +4,7 @@
       <TrophyIcon />
     </section-divider>
     <div class="flex justify-center items-center">
-      <div class="text-tertiary text-xl font-bold">
+      <div class="text-tertiary md:text-xl font-bold">
         <ul class="list-disc">
           <li>Jiahao Zhang is supported by an ANU-MERL PhD scholarship agreement.</li>
           <li>Yizhak Ben-Shabat is Supported by the Marie Sklodowska-Curie grant agreement No. 893465.</li>

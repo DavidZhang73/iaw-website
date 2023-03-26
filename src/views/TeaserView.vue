@@ -51,6 +51,7 @@
           <a href="https://csyanbin.github.io/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Yanbin Liu<sup>1</sup></a
           >
+          <div class="lg:w-full"></div>
           <a href="https://www.itzikbs.com/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Yizhak Ben-Shabat<sup>1,3</sup></a
           >
@@ -72,7 +73,7 @@
               ><sup>2</sup>Mitsubishi Electric Research Laboratories</a
             >
           </div>
-          <div class="w-full"></div>
+          <div class="lg:w-full"></div>
           <div>
             <a href="https://www.technion.ac.il/en/home-2/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>3</sup>Technion Israel Institute of Technology</a

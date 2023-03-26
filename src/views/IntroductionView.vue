@@ -3,11 +3,11 @@
     <section-divider name="INTRODUCTION" color="tertiary">
       <StarIcon />
     </section-divider>
-    <div class="flex flex-wrap justify-center text-lg">
-      <div class="p-8 w-full lg:w-3/5">
-        <p class="text-xl font-bold">What is Ikea Assembly In The Wild (IAW) Dataset:</p>
-        <br />
-        <p>
+    <div class="flex flex-wrap justify-center text-lg max-w-7xl mx-auto">
+      <div class="p-2 md:p-8 w-full lg:w-3/5">
+        <p class="md:text-xl font-bold">What is Ikea Assembly In The Wild (IAW) Dataset:</p>
+        <br class="hidden md:inline"/>
+        <p class="text-sm md:text-base">
           The IAW dataset contains <strong>420</strong> Ikea furniture pieces from <strong>14</strong> common categories
           e.g. sofa, bed, wardrobe, table, etc. Each piece of furniture comes with one or more user instruction manuals,
           which are first divided into pages and then further divided into independent steps cropped from each page
@@ -16,20 +16,20 @@
           each piece of furniture. We crawled YouTube to find videos corresponding to these instruction manuals and as
           such the conditions in the videos are diverse on many aspects e.g. duration, resolution, first- or
           third-person view, camera pose, background environment, number of assemblers, etc. The IAW dataset contains
-          1005 raw videos with a length of around 183 hours in total. Among them, approximately
-          <strong>114</strong> hours of content are labeled as <strong>15649</strong> actions to match the corresponding
-          step in the corresponding manual.
+          <strong>1005</strong> raw videos with a length of around <strong>183</strong> hours in total. Among them,
+          approximately <strong>114</strong> hours of content are labeled as <strong>15649</strong> actions to match the
+          corresponding step in the corresponding manual.
         </p>
       </div>
-      <div class="p-8 w-full lg:w-2/5">
-        <p class="text-xl font-bold">Characteristics:</p>
-        <br />
-        <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
+      <div class="p-2 md:p-8 w-full lg:w-2/5">
+        <p class="md:text-xl font-bold">Characteristics:</p>
+        <br class="hidden md:inline"/>
+        <ul class="pl-4 text-sm md:text-base list-disc">
+          <li>420 Ikea furniture</li>
+          <li>14 furniture categories</li>
+          <li>8568 assembly manual pages</li>
+          <li>183 hours of video</li>
+          <li>15649 pairs of video segments and steps</li>
         </ul>
       </div>
     </div>

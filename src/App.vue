@@ -1,6 +1,6 @@
 <template>
   <header class="fixed z-20 bg-primary w-screen">
-    <div class="py-6 px-6 md:px-40 flex">
+    <div class="py-6 px-6 md:px-40 xl:px-80 flex">
       <a
         href="/"
         class="font-bold text-2xl md:text-3xl text-white hover:text-secondary flex items-center"
@@ -41,15 +41,15 @@
     </div>
   </transition>
   <full-page :options="full_page_options">
-    <teaser-view class="section pt-[84px] px-6 md:px-40 bg-secondary" />
-    <introduction-view class="section pt-[84px] px-6 md:px-40" />
-    <statistic-view class="section pt-[84px] px-6 md:px-40 bg-secondary" />
-    <preview-view class="section pt-[84px] px-6 md:px-40" />
-    <cite-view class="section pt-[84px] px-6 md:px-40 bg-secondary" />
-    <download-view class="section pt-[84px] px-6 md:px-40" />
-    <people-view class="section pt-[84px] px-6 md:px-40 bg-secondary" />
-    <license-view class="section pt-[84px] px-6 md:px-40" />
-    <acknowledgements-view class="section pt-[84px] px-6 md:px-40 bg-secondary" />
+    <teaser-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <introduction-view class="section pt-[84px] px-6 md:px-40 xl:px-80" />
+    <statistic-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <preview-view class="section pt-[84px] px-6 md:px-40 xl:px-80" />
+    <cite-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <download-view class="section pt-[84px] px-6 md:px-40 xl:px-80" />
+    <people-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <license-view class="section pt-[84px] px-6 md:px-40 xl:px-80" />
+    <acknowledgements-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
     <footer class="section fp-auto-height py-6 text-white text-center text-sm bg-tertiary w-screen">
       <div>
         This dataset and website is not sponsored or affiliated in any way with IKEA the Furniture retail company

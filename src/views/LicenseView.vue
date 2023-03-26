@@ -5,7 +5,7 @@
     </section-divider>
     <div class="flex justify-center items-center">
       <div class="text-tertiary text-xl font-bold">
-        <p class="max-w-6xl">
+        <p class="max-w-7xl">
           The dataset and benchmarks provided on this page are published under the Creative Commons
           Attribution-NonCommercial 4.0 International License . This means you can use it for research and educational
           purposes but you must give appropriate credit, provide a link to the license, and indicate if changes were

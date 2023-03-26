@@ -14,17 +14,15 @@
       </div>
     </div>
     <div class="px-10 md:px-40 pt-[84px] absolute inset-0 flex justify-center items-center">
-      <div
-        class="p-10 text-center text-primary text-bold bg-white/30 rounded-xl backdrop-blur-xl backdrop-sepia"
-      >
-        <div class="font-extrabold text-3xl md:text-6xl">IKEA ASSEMBLY IN THE WILD (IAW) DATASET</div>
-        <div class="py-8 md:py-16 flex flex-wrap justify-center">
+      <div class="p-6 md:p-10 text-center text-primary text-bold bg-white/30 rounded-xl backdrop-blur-xl backdrop-sepia">
+        <div class="font-extrabold text-2xl md:text-6xl">IKEA ASSEMBLY IN THE WILD (IAW) DATASET</div>
+        <div class="py-2 md:py-16 flex flex-wrap justify-center">
           <a href="" target="_blank"
-            ><button class="btn"><NewspaperIcon class="h-6 mr-1" />Paper</button></a
+            ><button class="btn"><NewspaperIcon class="h-4 md:h-6" />Paper</button></a
           >
           <a href="https://github.com/DavidZhang73/IKEAAssemblyInTheWildDataset" target="_blank"
             ><button class="btn">
-              <svg class="h-6 mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.5 256 256">
+              <svg class="h-4 md:h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.5 256 256">
                 <g fill="currentColor">
                   <path
                     d="M127.505 0C57.095 0 0 57.085 0 127.505c0 56.336 36.534 104.13 87.196 120.99 6.372 1.18 8.712-2.766 8.712-6.134 0-3.04-.119-13.085-.173-23.739-35.473 7.713-42.958-15.044-42.958-15.044-5.8-14.738-14.157-18.656-14.157-18.656-11.568-7.914.872-7.752.872-7.752 12.804.9 19.546 13.14 19.546 13.14 11.372 19.493 29.828 13.857 37.104 10.6 1.144-8.242 4.449-13.866 8.095-17.05-28.32-3.225-58.092-14.158-58.092-63.014 0-13.92 4.981-25.295 13.138-34.224-1.324-3.212-5.688-16.18 1.235-33.743 0 0 10.707-3.427 35.073 13.07 10.17-2.826 21.078-4.242 31.914-4.29 10.836.048 21.752 1.464 31.942 4.29 24.337-16.497 35.029-13.07 35.029-13.07 6.94 17.563 2.574 30.531 1.25 33.743 8.175 8.929 13.122 20.303 13.122 34.224 0 48.972-29.828 59.756-58.22 62.912 4.573 3.957 8.648 11.717 8.648 23.612 0 17.06-.148 30.791-.148 34.991 0 3.393 2.295 7.369 8.759 6.117 50.634-16.879 87.122-64.656 87.122-120.973C255.009 57.085 197.922 0 127.505 0"
@@ -37,64 +35,52 @@
             </button></a
           >
           <a href="/#download"
-            ><button class="btn"><ArrowDownTrayIcon class="h-6 mr-1" />Download</button></a
+            ><button class="btn"><ArrowDownTrayIcon class="h-4 md:h-6" />Download</button></a
           >
           <a href="https://academic.davidz.cn/en/publication/zhang-cvpr-2023/" target="_blank"
-            ><button class="btn"><GlobeAltIcon class="h-6 mr-1" />Project</button></a
+            ><button class="btn"><GlobeAltIcon class="h-4 md:h-6" />Project</button></a
           >
         </div>
-        <div class="pb-4 md:pb-10 text-xl md:text-3xl font-bold leading-relaxed">
-          <a href="https://academic.davidz.cn/" class="px-2 hover:underline hover:cursor-pointer" target="_blank"
+        <div class="pb-2 md:pb-10 text-sm md:text-3xl font-bold">
+          <a href="https://academic.davidz.cn/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Jiahao Zhang<sup>1</sup></a
           >
-          <a
-            href="https://users.cecs.anu.edu.au/~cherian/"
-            class="px-2 hover:underline hover:cursor-pointer"
-            target="_blank"
+          <a href="https://users.cecs.anu.edu.au/~cherian/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Anoop Cherian<sup>2</sup></a
           >
-          <a href="https://csyanbin.github.io/" class="px-2 hover:underline hover:cursor-pointer" target="_blank"
+          <a href="https://csyanbin.github.io/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Yanbin Liu<sup>1</sup></a
           >
-          <br />
-          <a href="https://www.itzikbs.com/" class="px-2 hover:underline hover:cursor-pointer" target="_blank"
+          <div class="lg:w-full"></div>
+          <a href="https://www.itzikbs.com/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Yizhak Ben-Shabat<sup>1,3</sup></a
           >
-          <a href="https://crodriguezo.github.io/" class="px-2 hover:underline hover:cursor-pointer" target="_blank"
+          <a href="https://crodriguezo.github.io/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Cristian Rodriguez<sup>4</sup></a
           >
-          <a
-            href="https://users.cecs.anu.edu.au/~sgould/"
-            class="px-2 hover:underline hover:cursor-pointer"
-            target="_blank"
+          <a href="https://users.cecs.anu.edu.au/~sgould/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Stephen Gould<sup>1</sup></a
           >
         </div>
-        <div class="flex flex-wrap justify-center md:text-2xl">
+        <div class="flex flex-wrap justify-center text-sm md:text-2xl">
           <div>
-            <a href="https://www.anu.edu.au/" class="px-2 hover:underline hover:cursor-pointer" target="_blank"
+            <a href="https://www.anu.edu.au/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>1</sup>The Australian National University</a
             >
           </div>
           <div>
-            <a href="https://www.merl.com/" class="px-2 hover:underline hover:cursor-pointer" target="_blank"
+            <a href="https://www.merl.com/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>2</sup>Mitsubishi Electric Research Laboratories</a
             >
           </div>
-          <div class="w-full"></div>
+          <div class="lg:w-full"></div>
           <div>
-            <a
-              href="https://www.technion.ac.il/en/home-2/"
-              class="px-2 hover:underline hover:cursor-pointer"
-              target="_blank"
+            <a href="https://www.technion.ac.il/en/home-2/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>3</sup>Technion Israel Institute of Technology</a
             >
           </div>
           <div>
-            <a
-              href="https://www.adelaide.edu.au/aiml/"
-              class="px-2 hover:underline hover:cursor-pointer"
-              target="_blank"
+            <a href="https://www.adelaide.edu.au/aiml/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>4</sup>The Australian Institute for Machine Learning</a
             >
           </div>
@@ -153,6 +139,6 @@ onMounted(() => {
 
 <style>
 .btn {
-  @apply flex items-center text-lg font-bold align-middle text-primary border-primary p-2 mx-2 border-2 rounded-2xl hover:text-white hover:bg-primary;
+  @apply flex items-center text-sm md:text-lg font-bold align-middle text-primary border-primary p-1 md:p-2 m-1 md:m-2 border-2 rounded-xl md:rounded-2xl hover:text-white hover:bg-primary;
 }
 </style>

@@ -41,7 +41,7 @@
             ><button class="btn"><GlobeAltIcon class="h-4 md:h-6" />Project</button></a
           >
         </div>
-        <div class="pb-2 md:pb-10 text-lg md:text-3xl font-bold">
+        <div class="pb-2 md:pb-10 text-sm md:text-3xl font-bold">
           <a href="https://academic.davidz.cn/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
             >Jiahao Zhang<sup>1</sup></a
           >
@@ -62,7 +62,7 @@
             >Stephen Gould<sup>1</sup></a
           >
         </div>
-        <div class="flex flex-wrap justify-center md:text-2xl">
+        <div class="flex flex-wrap justify-center text-sm md:text-2xl">
           <div>
             <a href="https://www.anu.edu.au/" class="inline-block px-2 md:px-6 hover:underline" target="_blank"
               ><sup>1</sup>The Australian National University</a
@@ -139,6 +139,6 @@ onMounted(() => {
 
 <style>
 .btn {
-  @apply flex items-center md:text-lg font-bold align-middle text-primary border-primary p-1 md:p-2 m-1 md:m-2 border-2 rounded-xl md:rounded-2xl hover:text-white hover:bg-primary;
+  @apply flex items-center text-sm md:text-lg font-bold align-middle text-primary border-primary p-1 md:p-2 m-1 md:m-2 border-2 rounded-xl md:rounded-2xl hover:text-white hover:bg-primary;
 }
 </style>

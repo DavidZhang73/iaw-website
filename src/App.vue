@@ -2,7 +2,7 @@
   <header class="fixed z-20 bg-primary w-screen">
     <div class="py-6 px-6 md:px-40 xl:px-80 flex">
       <a
-        href="/"
+        href=""
         class="font-bold text-2xl md:text-3xl hover:text-secondary flex items-center"
         :class="{ 'text-secondary': hash === '', 'text-white': hash !== '' }"
         >IAW DATASET</a
@@ -19,7 +19,7 @@
         <a
           v-for="view in viewList"
           :key="view.name"
-          :href="'/#' + view.name"
+          :href="'#' + view.name"
           class="hover:text-secondary"
           :class="{ 'text-secondary': hash === view.name }"
           >{{ view.name.toUpperCase() }}</a
@@ -32,7 +32,7 @@
       <a
         v-for="view in viewList"
         :key="view.name"
-        :href="'/#' + view.name"
+        :href="'#' + view.name"
         class="px-6 py-4 block hover:text-secondary"
         :class="{ 'text-secondary': hash === view.name }"
         @click="isDrawerOpen = false"

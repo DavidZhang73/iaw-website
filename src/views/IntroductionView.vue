@@ -4,9 +4,18 @@
       <StarIcon />
     </section-divider>
     <div class="flex flex-wrap justify-center text-lg max-w-7xl mx-auto">
+      <div class="p-2 md:p-8 w-full lg:w-4/5">
+        <img src="/img/teaser.png" width="100%" />
+        <p class="md:py-2 text-sm">
+          <span class="font-bold">Figure.</span>
+          An illustration of video-diagram alignment between a YouTube video (top)
+          <a href="https://www.youtube.com/watch?v=He0pCeCTJQM">He0pCeCTJQM</a> and an Ikea furniture manual (bottom)
+          <a href="https://www.ikea.com/au/en/p/tarva-bed-frame-pine-luroey-s49069795/">s49069795</a>.
+        </p>
+      </div>
       <div class="p-2 md:p-8 w-full lg:w-3/5">
         <p class="md:text-xl font-bold">What is Ikea Assembly In The Wild (IAW) Dataset:</p>
-        <br class="hidden md:inline"/>
+        <br class="hidden md:inline" />
         <p class="text-sm md:text-base">
           The IAW dataset contains <strong>420</strong> Ikea furniture pieces from <strong>14</strong> common categories
           e.g. sofa, bed, wardrobe, table, etc. Each piece of furniture comes with one or more user instruction manuals,
@@ -23,7 +32,7 @@
       </div>
       <div class="p-2 md:p-8 w-full lg:w-2/5">
         <p class="md:text-xl font-bold">Characteristics:</p>
-        <br class="hidden md:inline"/>
+        <br class="hidden md:inline" />
         <ul class="pl-4 text-sm md:text-base list-disc">
           <li>420 Ikea furniture</li>
           <li>14 furniture categories</li>

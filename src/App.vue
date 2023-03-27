@@ -3,8 +3,8 @@
     <div class="py-6 px-6 md:px-40 xl:px-80 flex">
       <a
         href="/"
-        class="font-bold text-2xl md:text-3xl text-white hover:text-secondary flex items-center"
-        :class="{ 'text-secondary': $route.hash === '' }"
+        class="font-bold text-2xl md:text-3xl hover:text-secondary flex items-center"
+        :class="{ 'text-secondary': hash === '', 'text-white': hash !== '' }"
         >IAW DATASET</a
       >
       <div class="flex-grow" />
@@ -21,7 +21,7 @@
           :key="view.name"
           :href="'/#' + view.name"
           class="hover:text-secondary"
-          :class="{ 'text-secondary': $route.hash === '#' + view.name }"
+          :class="{ 'text-secondary': hash === view.name }"
           >{{ view.name.toUpperCase() }}</a
         >
       </div>
@@ -34,7 +34,7 @@
         :key="view.name"
         :href="'/#' + view.name"
         class="px-6 py-4 block hover:text-secondary"
-        :class="{ 'text-secondary': $route.hash === '#' + view.name }"
+        :class="{ 'text-secondary': hash === view.name }"
         @click="isDrawerOpen = false"
         >{{ view.name.toUpperCase() }}</a
       >
@@ -50,7 +50,7 @@
     <people-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
     <license-view class="section pt-[84px] px-6 md:px-40 xl:px-80" />
     <acknowledgements-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
-    <footer class="section fp-auto-height py-6 text-white text-center text-sm bg-tertiary w-screen">
+    <footer class="section fp-auto-height py-6 text-white text-center text-sm bg-tertiary">
       <div>
         This dataset and website is not sponsored or affiliated in any way with IKEA the Furniture retail company
       </div>
@@ -71,17 +71,17 @@ import AcknowledgementsView from "@/views/AcknowledgementsView.vue"
 import StatisticView from "./views/StatisticView.vue"
 import PreviewView from "./views/PreviewView.vue"
 import { Bars3Icon } from "@heroicons/vue/24/solid"
-import { ref } from "vue"
+import { onMounted, onUnmounted, ref } from "vue"
 
 const viewList = [
   {
     name: "introduction",
   },
   {
-    name: "statistics"
+    name: "statistics",
   },
   {
-    name: "preview"
+    name: "preview",
   },
   {
     name: "cite",
@@ -102,13 +102,25 @@ const viewList = [
 
 const full_page_options = ref({
   licenseKey: "gplv3-license",
-  anchors: ["", ...viewList.map((view) => view.name)],
+  anchors: ["", ...viewList.map((view) => view.name), 'footer'],
   navigation: true,
   showActiveTooltip: true,
   credits: { enabled: false },
 })
 
 const isDrawerOpen = ref(false)
+
+const hash = ref("")
+
+const handleHashChange = (event) => (hash.value = event.newURL.split("#")[1])
+
+onMounted(() => {
+  addEventListener("hashchange", handleHashChange)
+})
+
+onUnmounted(() => {
+  removeEventListener("hashchange", handleHashChange)
+})
 </script>
 
 <style scoped>

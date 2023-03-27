@@ -34,3 +34,7 @@ jobs:
           REMOTE_PORT: ${{ secrets.PORT }}
           REMOTE_USER: ${{ secrets.USER }}
           TARGET: ${{ secrets.TARGET }}
+      - name: Deploy to GitHub Page
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist

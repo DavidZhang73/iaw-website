@@ -19,7 +19,7 @@
           <a href="https://arxiv.org/pdf/2303.13800.pdf" target="_blank"
             ><button class="btn"><NewspaperIcon class="h-4 md:h-6 md:mr-1" />Paper</button></a
           >
-          <a href="/#download"
+          <a href="#download"
             ><button class="btn"><ArrowDownTrayIcon class="h-4 md:h-6 md:mr-1" />Download</button></a
           >
           <a href="https://academic.davidz.cn/en/publication/zhang-cvpr-2023/" target="_blank"

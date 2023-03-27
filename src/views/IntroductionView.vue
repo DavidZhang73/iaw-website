@@ -34,11 +34,36 @@
         <p class="md:text-xl font-bold">Characteristics:</p>
         <br class="hidden md:inline" />
         <ul class="pl-4 text-sm md:text-base list-disc">
-          <li>420 Ikea furniture</li>
-          <li>14 furniture categories</li>
-          <li>8568 assembly manual pages</li>
-          <li>183 hours of video</li>
-          <li>15649 pairs of video segments and steps</li>
+          <li>
+            420 Ikea furniture
+            <ul class="pl-4 list-disc">
+              <li>From IKEA website</li>
+              <li>14 categories</li>
+            </ul>
+          </li>
+          <li>
+            1005 videos
+            <ul class="pl-4 list-disc">
+              <li>From YouTube</li>
+              <li>~183 hours</li>
+              <li>
+                4 attributes (first- or third-person view, camera fixed or not, indoor or outdoor, number of
+                assemblers).
+              </li>
+            </ul>
+          </li>
+          <li>
+            8263 assembly step images
+            <ul class="pl-4 list-disc">
+              <li>8568 manual page images</li>
+            </ul>
+          </li>
+          <li>
+            15649 pairs of video clips and steps
+            <ul class="pl-4 list-disc">
+              <li>~114 hours of video</li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <header class="fixed z-20 bg-primary w-screen">
-    <div class="py-3 xl:py-6 px-6 md:px-40 xl:px-80 flex">
+    <div class="py-3 xl:py-6 page-padding flex">
       <a
         href=""
         class="font-bold text-2xl xl:text-3xl hover:text-secondary flex items-center"
@@ -41,15 +41,15 @@
     </div>
   </transition>
   <full-page :options="full_page_options">
-    <teaser-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
-    <introduction-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80" />
-    <statistic-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
-    <preview-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80" />
-    <cite-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
-    <download-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80" />
-    <people-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
-    <license-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80" />
-    <acknowledgements-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <teaser-view class="section pt-[67.2px] xl:pt-[84px] bg-secondary" />
+    <introduction-view class="section pt-[67.2px] xl:pt-[84px] pb-10" />
+    <statistic-view class="section pt-[67.2px] xl:pt-[84px] pb-10 bg-secondary" />
+    <preview-view class="section pt-[67.2px] xl:pt-[84px] pb-10" />
+    <cite-view class="section pt-[67.2px] xl:pt-[84px] pb-10 bg-secondary" />
+    <download-view class="section pt-[67.2px] xl:pt-[84px] pb-10" />
+    <people-view class="section pt-[67.2px] xl:pt-[84px] pb-10 bg-secondary" />
+    <license-view class="section pt-[67.2px] xl:pt-[84px] pb-10" />
+    <acknowledgements-view class="section pt-[67.2px] xl:pt-[84px] pb-10 bg-secondary" />
     <footer class="section fp-auto-height py-6 text-white text-center text-sm bg-tertiary">
       <div>
         This dataset and website is not sponsored or affiliated in any way with IKEA the Furniture retail company
@@ -102,7 +102,7 @@ const viewList = [
 
 const full_page_options = ref({
   licenseKey: "gplv3-license",
-  anchors: ["", ...viewList.map((view) => view.name), 'footer'],
+  anchors: ["", ...viewList.map((view) => view.name), "footer"],
   navigation: true,
   showActiveTooltip: true,
   credits: { enabled: false },
@@ -123,7 +123,7 @@ onUnmounted(() => {
 })
 </script>
 
-<style scoped>
+<style>
 .v-enter-active,
 .v-leave-active {
   transition: transform 0.5s ease;
@@ -137,5 +137,9 @@ onUnmounted(() => {
 .v-enter-to,
 .v-leave-from {
   transform: translateY(0);
+}
+
+.page-padding {
+  @apply px-6 md:px-40 xl:px-80;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div :class="`text-${props.color}`">
+  <div :class="`text-${props.color}`" class="pt-10">
     <div class="text-center">
       <span class="text-xl md:text-4xl font-bold">{{ props.name }}</span>
     </div>

@@ -3,7 +3,7 @@
     <section-divider name="LICENCE" color="tertiary">
       <ScaleIcon />
     </section-divider>
-    <div class="flex justify-center items-center">
+    <div class="page-padding flex justify-center items-center">
       <div class="text-tertiary md:text-xl font-bold">
         <p class="max-w-7xl">
           The dataset and benchmarks provided on this page are published under the Creative Commons

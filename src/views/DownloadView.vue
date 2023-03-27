@@ -3,7 +3,7 @@
     <section-divider name="DOWNLOAD" color="tertiary">
       <ArrowDownOnSquareStackIcon />
     </section-divider>
-    <div class="h-80 flex justify-center items-center">
+    <div class="page-padding h-80 flex justify-center items-center">
       <a
         href="https://github.com/DavidZhang73/IKEAAssemblyInTheWildDataset"
         target="_blank"

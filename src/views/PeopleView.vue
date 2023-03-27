@@ -3,7 +3,7 @@
     <section-divider name="PEOPLE">
       <UserCircleIcon />
     </section-divider>
-    <div class="pb-10 flex flex-wrap justify-center items-center">
+    <div class="page-padding pb-10 flex flex-wrap justify-center items-center">
       <template v-for="person in peopleList" :key="person.name">
         <a :href="person.link" target="_blank" class="p-3 sm:p-8 flex flex-col items-center group">
           <img

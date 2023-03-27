@@ -3,7 +3,7 @@
     <section-divider name="Acknowledgements">
       <TrophyIcon />
     </section-divider>
-    <div class="flex justify-center items-center">
+    <div class="page-padding flex justify-center items-center">
       <div class="text-tertiary md:text-xl font-bold">
         <ul class="list-disc">
           <li>Jiahao Zhang is supported by an ANU-MERL PhD scholarship agreement.</li>

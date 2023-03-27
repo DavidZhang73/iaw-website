@@ -3,7 +3,7 @@
     <section-divider name="STATISTICS">
       <ChartPieIcon />
     </section-divider>
-    <div class="flex flex-wrap items-start">
+    <div class="page-padding flex flex-wrap items-start">
       <div class="w-full md:w-1/3 p-2 md:p-8 flex flex-wrap">
         <div class="md:pb-2">
           <img width="100%" src="/img/table1.png" />

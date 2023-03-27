@@ -3,7 +3,7 @@
     <section-divider name="INTRODUCTION" color="tertiary">
       <StarIcon />
     </section-divider>
-    <div class="flex flex-wrap justify-center text-lg max-w-7xl mx-auto">
+    <div class="page-padding flex flex-wrap justify-center text-lg mx-auto">
       <div class="p-2 md:p-8 w-full lg:w-4/5">
         <img src="/img/teaser.png" width="100%" />
         <p class="md:py-2 text-sm">

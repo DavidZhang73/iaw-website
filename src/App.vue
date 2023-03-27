@@ -1,21 +1,21 @@
 <template>
   <header class="fixed z-20 bg-primary w-screen">
-    <div class="py-6 px-6 md:px-40 xl:px-80 flex">
+    <div class="py-3 xl:py-6 px-6 md:px-40 xl:px-80 flex">
       <a
         href=""
-        class="font-bold text-2xl md:text-3xl hover:text-secondary flex items-center"
+        class="font-bold text-2xl xl:text-3xl hover:text-secondary flex items-center"
         :class="{ 'text-secondary': hash === '', 'text-white': hash !== '' }"
         >IAW DATASET</a
       >
       <div class="flex-grow" />
       <button
-        class="flex items-center lg:hidden text-lg text-white font-bold align-middle hover:text-secondary p-2 border-2 hover:border-secondary border-white rounded-2xl"
+        class="flex items-center xl:hidden text-white font-bold align-middle hover:text-secondary p-2 border-2 hover:border-secondary border-white rounded-xl xl:rounded-2xl"
         @click="isDrawerOpen = !isDrawerOpen"
       >
         MENU
-        <Bars3Icon class="h-6" />
+        <Bars3Icon class="ml-1 h-6" />
       </button>
-      <div class="hidden lg:flex gap-x-6 font-bold text-1xl text-white items-center">
+      <div class="hidden xl:flex gap-x-6 font-bold text-1xl text-white items-center">
         <a
           v-for="view in viewList"
           :key="view.name"
@@ -28,12 +28,12 @@
     </div>
   </header>
   <transition>
-    <div v-if="isDrawerOpen" class="pt-[84px] fixed z-10 bg-primary w-screen font-bold text-1xl text-white">
+    <div v-if="isDrawerOpen" class="pt-[67.2px] fixed z-10 bg-primary w-screen font-bold text-1xl text-white">
       <a
         v-for="view in viewList"
         :key="view.name"
         :href="'#' + view.name"
-        class="px-6 py-4 block hover:text-secondary"
+        class="px-6 py-3 block hover:text-secondary"
         :class="{ 'text-secondary': hash === view.name }"
         @click="isDrawerOpen = false"
         >{{ view.name.toUpperCase() }}</a
@@ -41,15 +41,15 @@
     </div>
   </transition>
   <full-page :options="full_page_options">
-    <teaser-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
-    <introduction-view class="section pt-[84px] px-6 md:px-40 xl:px-80" />
-    <statistic-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
-    <preview-view class="section pt-[84px] px-6 md:px-40 xl:px-80" />
-    <cite-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
-    <download-view class="section pt-[84px] px-6 md:px-40 xl:px-80" />
-    <people-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
-    <license-view class="section pt-[84px] px-6 md:px-40 xl:px-80" />
-    <acknowledgements-view class="section pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <teaser-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <introduction-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80" />
+    <statistic-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <preview-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80" />
+    <cite-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <download-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80" />
+    <people-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
+    <license-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80" />
+    <acknowledgements-view class="section pt-[67.2px] xl:pt-[84px] px-6 md:px-40 xl:px-80 bg-secondary" />
     <footer class="section fp-auto-height py-6 text-white text-center text-sm bg-tertiary">
       <div>
         This dataset and website is not sponsored or affiliated in any way with IKEA the Furniture retail company

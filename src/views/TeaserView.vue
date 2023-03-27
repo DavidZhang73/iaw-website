@@ -12,7 +12,7 @@
         <grid-cell />
       </div>
     </div>
-    <div class="px-10 md:px-40 pt-[84px] absolute inset-0 flex justify-center items-center">
+    <div class="px-10 md:px-40 pt-[67.2px] xl:pt-[84px] absolute inset-0 flex justify-center items-center">
       <div class="p-6 md:p-10 text-center text-primary text-bold bg-white/30 rounded-xl backdrop-blur-xl backdrop-sepia">
         <div class="font-extrabold text-2xl md:text-6xl">IKEA ASSEMBLY IN THE WILD (IAW) DATASET</div>
         <div class="py-2 md:py-16 flex flex-wrap justify-center">

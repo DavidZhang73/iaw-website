@@ -8,7 +8,7 @@
         />
       </svg>
     </section-divider>
-    <div class="page-padding max-w-7xl mx-auto">
+    <div class="page-padding mx-auto">
       <pre
         class="line-numbers language-bibtex rounded-lg text-sm md:text-base font-bold select-all"
         style="white-space: pre-wrap !important"

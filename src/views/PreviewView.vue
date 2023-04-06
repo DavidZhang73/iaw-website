@@ -3,9 +3,9 @@
     <section-divider name="PREVIEW" color="tertiary">
       <PresentationChartBarIcon />
     </section-divider>
-    <div class="page-padding flex justify-center flex-wrap">
+    <div class="page-padding md:px-20 xl:px-40 flex justify-center flex-wrap">
       <template v-if="currentDatasetIndex !== null && currentDatasetIndex !== undefined && currentDatasetIndex >= 0">
-        <div class="w-full flex items-center">
+        <div class="w-full flex flex-wrap items-center">
           <!-- Head -->
           <div class="w-20 font-bold">Furniture:</div>
           <input
@@ -19,17 +19,18 @@
               {{ data.subCategory }} {{ data.id }} {{ data.name }} {{ data.typeName }}
             </option>
           </datalist>
-          <div class="text-center font-bold text-3xl flex-grow">
+          <div class="text-center font-bold text-3xl w-full -order-last md:-order-none md:w-auto md:flex-grow">
             <a :href="currentDataset.pipUrl" target="_blank"
               >{{ currentDataset.subCategory }} {{ currentDataset.id }} {{ currentDataset.name }}
               {{ currentDataset.typeName }}
             </a>
           </div>
+          <div class="flex-grow md:hidden"></div>
           <a :href="currentDataset.pipUrl" target="_blank">
             <img class="inline w-32" :src="currentDataset.mainImageUrl"
           /></a>
         </div>
-        <div class="w-full xl:w-1/2 xl:pr-2">
+        <div class="w-full xl:w-1/2">
           <!-- Manual -->
           <div class="flex items-center py-1">
             <div class="w-20 font-bold">Manual:</div>
@@ -62,7 +63,7 @@
           <pdf-page-viewer :src="currentManual.url" :annotation="currentManualAnnotation" />
           <div class="pt-1 md:pt-2 text-sm text-gray-500">{{ currentManualAnnotation }}</div>
         </div>
-        <div class="w-full xl:w-1/2 xl:pl-2">
+        <div class="w-full xl:w-1/2">
           <!-- Video -->
           <div class="flex items-center py-1">
             <div class="w-20 font-bold">Video:</div>

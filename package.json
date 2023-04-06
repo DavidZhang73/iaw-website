@@ -11,6 +11,7 @@
     "@fontsource/roboto": "^4.5.8",
     "@heroicons/vue": "^2.0.16",
     "@vueuse/core": "^9.13.0",
+    "pdfjs-dist": "^3.5.141",
     "pinia": "^2.0.33",
     "prismjs": "^1.29.0",
     "prismjs-bibtex": "^2.0.1",

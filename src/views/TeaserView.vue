@@ -15,6 +15,12 @@
     <div class="px-10 md:px-40 pt-[67.2px] xl:pt-[84px] absolute inset-0 flex justify-center items-center">
       <div class="p-6 md:p-10 text-center text-primary text-bold bg-white/30 rounded-xl backdrop-blur-xl backdrop-sepia">
         <div class="font-extrabold text-2xl md:text-6xl">IKEA ASSEMBLY IN THE WILD (IAW) DATASET</div>
+        <a
+          class="inline-block pt-2 md:pt-8 text-sm md:text-3xl font-bold hover:underline"
+          target="_blank"
+          href="https://academic.davidz.cn/en/publication/zhang-cvpr-2023/"
+          >Aligning Step-by-Step Instruction Diagrams to Video Demonstrations</a
+        >
         <div class="py-2 md:py-16 flex flex-wrap justify-center">
           <a href="https://arxiv.org/pdf/2303.13800.pdf" target="_blank"
             ><button class="btn"><NewspaperIcon class="h-4 md:h-6 md:mr-1" />Paper</button></a
@@ -22,8 +28,22 @@
           <a href="#download"
             ><button class="btn"><ArrowDownTrayIcon class="h-4 md:h-6 md:mr-1" />Download</button></a
           >
-          <a href="https://academic.davidz.cn/en/publication/zhang-cvpr-2023/" target="_blank"
-            ><button class="btn"><GlobeAltIcon class="h-4 md:h-6 md:mr-1" />Project</button></a
+          <a href="#cite"
+            ><button class="btn">
+              <svg
+                class="h-3 md:h-5 md:mr-1"
+                aria-hidden="true"
+                focusable="false"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                /></svg
+              >Cite
+            </button></a
           >
         </div>
         <div class="pb-2 md:pb-10 text-sm md:text-3xl font-bold">

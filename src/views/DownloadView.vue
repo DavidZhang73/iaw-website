@@ -7,7 +7,8 @@
       <a
         href="https://github.com/DavidZhang73/IKEAAssemblyInTheWildDataset"
         target="_blank"
-        class="umami--click--download-button btn text-sm md:text-lg font-bold"
+        class="btn text-sm md:text-lg font-bold"
+        data-umami-event="download"
         ><svg class="h-4 md:h-6 mr-1 md:mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 -3.5 256 256">
           <g fill="currentColor">
             <path

@@ -2,5 +2,5 @@
   "name": "iaw-devcontainer",
   "image": "mcr.microsoft.com/devcontainers/javascript-node",
   "features": {},
-  "postCreateCommand": "npm ci"
+  "postCreateCommand": "pnpm install"
 }
